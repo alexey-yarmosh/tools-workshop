@@ -1,5 +1,7 @@
 const postcss = require('postcss');
 
+
+// eslint-disable-next-line no-unused-vars
 module.exports = postcss.plugin('postcss-yamoney-nodejs-school', (options = {}) => {
   return (css) => {
     css.walkRules((rule) => {
