@@ -1,7 +1,7 @@
 {
-  "name": "babel-workshop",
+  "name": "tools-workshop",
   "version": "1.0.0",
-  "description": "",
+  "description": "Several tools for productive front-end dev",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,9 +10,10 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "babel": "6.23.0",
     "babel-cli": "6.26.0",
     "postcss": "6.0.13",
-    "postcss-cli": "4.1.1"
+    "postcss-cli": "4.1.1",
+    "stylelint": "^8.1.1",
+    "stylelint-config-recommended": "^1.0.0"
   }
 }
