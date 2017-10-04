@@ -5,5 +5,8 @@
 ### PostCSS
 1. run `./node_modules/.bin/postcss src/styles.css -o dist/styles.css`
 
-### CSSlint
-1. run `./node_modules/.bin/stylelint src/styles.css`
+### CSSLint
+1. run `./node_modules/.bin/stylelint .`
+
+### ESLint
+1. run `./node_modules/.bin/eslint .`
