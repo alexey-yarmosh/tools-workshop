@@ -3,10 +3,13 @@
 2. run `./node_modules/.bin/babel src/index.js -o dist/index.js`
 
 ### PostCSS
-1. run `./node_modules/.bin/postcss src/styles.css -o dist/styles.css`
+run `./node_modules/.bin/postcss src/styles.css -o dist/styles.css`
 
 ### CSSLint
-1. run `./node_modules/.bin/stylelint .`
+run `./node_modules/.bin/stylelint .`
 
 ### ESLint
-1. run `./node_modules/.bin/eslint .`
+run `./node_modules/.bin/eslint .`
+
+### Gulp
+run `gulp`
