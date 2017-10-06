@@ -13,3 +13,6 @@ run `./node_modules/.bin/eslint .`
 
 ### Gulp
 run `gulp`
+
+### Webpack
+run `webpack`

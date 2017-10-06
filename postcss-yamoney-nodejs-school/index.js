@@ -9,7 +9,7 @@ module.exports = postcss.plugin('postcss-yamoney-nodejs-school', (options = {}) 
         if (decl.prop === 'yamoney-nodejs-school') {
           decl.replaceWith(postcss.decl({prop: 'content', value: decl.value}));
         }
-      })
-    })
-  }
-})
+      });
+    });
+  };
+});
